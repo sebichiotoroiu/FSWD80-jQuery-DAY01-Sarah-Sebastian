@@ -1,0 +1,26 @@
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.error:after {
+  content: "You have to actually type something before adding it to the list."
+}
+
+.correct {
+  color: blue;
+  font-weight: bold;
+}
+
+.correct:before {
+  content: "Added new list item: "
+}
+
+.remove {
+  color: green;
+  font-weight: bold;
+}
+
+.remove:before {
+  content: "Removed last list item: "
+}
